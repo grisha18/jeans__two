@@ -17,7 +17,15 @@
     list-style: none;
     display: flex;
     flex-direction: row;
-    gap: 3em;
+    gap: 1em;
+}
+.menu__list img{
+    width: 85px;
+    height: 113px;
+
+}
+.menu__list .active{
+    border: 3px solid cadetblue;
 }
 .menu__list a{
     text-decoration: none;
@@ -36,6 +44,22 @@
     position: relative;
     margin-left: 58px;
     margin-top: 78px;
+}
+.main__girl__images img{
+    width: 400px;
+    height: 523px;
+    position: absolute;
+    opacity: 0;
+    transition: all 0.3s;
+}    
+.main__girl__images{
+    position: relative;
+    width: 400px;
+    height: 523px;
+    
+}
+.main__girl__images .active{
+    opacity: 1;
 }
 
 .prev-arrow{
